@@ -1,0 +1,32 @@
+# Local tools and test artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+node_modules/
+__pycache__/
+*.py[cod]
+tmp/
+test-results/
+playwright-report/
+*.log
+
+# Secrets, private records, uploads and generated exports
+.env
+.env.*
+!.env.example
+private/
+uploads/
+reports/
+*.mp4
+*.mov
+*.webm
+*.csv
+*.xlsx
+
+# Local backups and duplicate models
+*.bak
+*.backup
+*.before-*.html
+*.glb.glb
